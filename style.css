@@ -193,7 +193,7 @@ h1
 
 	.container-content h1
 	{
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 
@@ -214,6 +214,7 @@ h1
 		.personal-card
 	{
 		margin-bottom: 2vh;
+		padding-left: 10vw;
 	}
 
 	.round
