@@ -12,6 +12,9 @@ body
 #mainmenu a
 {
 	color: white;
+	border: 1px solid #6b71e8;
+	border-radius: 5px;
+	background-color: #6b71e8;
 }
 
 #mainmenu > ul > li a:hover
@@ -19,25 +22,28 @@ body
 	color: #6b71e8;
 	transition: all 0.5s ease-in-out;
 	background-color: #f9f9f9;
+	border: 1px solid #f9f9f9;
+	border-radius: 5px;
 
 }
 
+.navbar
+{
+	padding: 0px;
+}
 
-
-
-.navbar-brand 
+.navbar-brand
 {
 	font-family: 'Staatliches', cursive;
 	color: white;
 	font-size: 30px;
 }
 
-.navbar-brand:hover
+.navbar .navbar-brand:hover
 {
-
-	color: #8d93g0;
+	color: #6b71e8;
 	transition: all 0.5s ease-in-out;
-
+	background-color: #f9f9f9;
 }
 
 
@@ -178,14 +184,19 @@ h1
 
 .social a
 {
-	color: white;
+	color: #f9f9f9;
+	border: 1px solid #6b71e8;
+	border-radius: 5px;
+	background-color: #6b71e8;
 }
 
 .social a:hover
 {
 	color: #6b71e8;
 	transition: all 0.5s ease-in-out;
-	background-color: white;
+	background-color: #f9f9f9;
+	border: 1px solid #f9f9f9;
+	border-radius: 5px;
 }
 
 @media (max-width: 768px)
