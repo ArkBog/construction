@@ -1,0 +1,236 @@
+body
+{
+	background-color: #f9f9f9;
+	font-family: 'Merriweather', serif;
+}
+
+.navbarColor
+{
+	background-color: #6b71e8;
+}
+
+#mainmenu a
+{
+	color: white;
+}
+
+#mainmenu > ul > li a:hover
+{
+	color: #6b71e8;
+	transition: all 0.5s ease-in-out;
+	background-color: #f9f9f9;
+
+}
+
+
+
+
+.navbar-brand 
+{
+	font-family: 'Staatliches', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+.navbar-brand:hover
+{
+
+	color: #8d93g0;
+	transition: all 0.5s ease-in-out;
+
+}
+
+
+.container-content
+{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.container-content h1
+{
+	font-family: 'Merriweather', serif;
+	color: white;
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+.container-content a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 24px;
+	border: 2px solid white;
+	padding: 14px 70px;
+	border-radius: 50px;
+	margin-top: 50px;
+}
+
+.container-content a:hover
+{
+	color: white;
+	border: 5px solid white;
+	padding: 14px 70px;
+	border-radius: 50px;
+	transition: all 1s ease-in-out;
+	font-size: 30px;
+}
+
+.backvideo
+{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+
+
+.pos
+{
+	height: 58vw;
+}
+
+.h1
+{
+	color: #6b71e8;
+}
+
+.textJustify
+{
+	text-align: justify; !important
+}
+
+h1
+{
+	color: #f9f9f9;
+}
+
+.card-title
+{
+	color: #6b71e8; !important
+}
+
+.round
+{
+	border: 2px solid #6b71e8;
+	border-radius: 50%;
+	width: 10vw;
+	height: 10vw;
+}
+
+.person-card
+{
+	background-color: #6b71e8;
+	z-index: -1;
+	height: 10vw;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	padding-top: 2vw;
+}
+
+.person-name
+{
+	color: white;
+	text-transform: uppercase;
+}
+
+.job
+{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.job a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.company-adress
+{
+	font-size: 16px;
+	color: white;
+}
+
+.company-logo-footer
+{
+	font-family: 'Staatliches', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+.open
+{
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.social a
+{
+	font-size: 60px;
+	color: white;
+}
+
+.social a
+{
+	color: white;
+}
+
+.social a:hover
+{
+	color: #6b71e8;
+	transition: all 0.5s ease-in-out;
+	background-color: white;
+}
+
+@media (max-width: 768px)
+{
+
+	.container-content h1
+	{
+		font-size: 30px;
+	}
+
+
+}
+
+@media (max-width: 575px)
+{
+	.nav-link
+	{
+		font-size: 12px;
+	} 
+
+
+}
+
+@media (max-width:  1200px)
+{
+		.personal-card
+	{
+		margin-bottom: 2vh;
+	}
+
+	.round
+{
+	width: 25vw;
+	height: 25vw;
+}
+.person-card
+{
+	height: 20vw;
+	margin-top: 2vw;
+	padding-top: 1vw;
+}
+
+
+}
+
+
+
+

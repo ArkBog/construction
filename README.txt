@@ -1,0 +1,1 @@
+The aim of the project was to create a layout in which video would play the main role. To ensure the responsiveness of the website, Boostarp was used. The use of sticky navbar also attracts attention. The project used the trasition property to animate the navbar buttons and tabs.
