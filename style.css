@@ -107,6 +107,17 @@ body
 {
 	text-align: justify; !important
 }
+.more a,
+.card-body a
+{
+	text-decoration: none;
+	color: #6b71e8;
+	text-transform: uppercase;
+}
+.more a:hover
+{
+	font-weight: bolder;
+}
 
 h1
 {
@@ -198,6 +209,58 @@ h1
 	border: 1px solid #f9f9f9;
 	border-radius: 5px;
 }
+.foot
+{
+	color: #6b71e8;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.foot a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+#imgmenu
+{
+	width: 100%;
+}
+.imgmenuoption
+{
+	display: block;
+	float: left;
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.imgmenuoption a
+{
+	text-decoration: none;
+	color: #6b71e8;
+	font-weight: 700;
+}
+.imgmenuoptiontxt 
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: relative;
+	top: 12vw;
+	left: 12vw;
+	letter-spacing: 5px;
+	font-family: 'Staatliches';
+}
+.imgmenuoption img
+{
+	width: 100%;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+.imgmenuoption img:hover
+{
+	opacity: 0.1;
+	transition: all 0.5s ease-in-out;
+}
 
 @media (max-width: 768px)
 {
@@ -205,6 +268,16 @@ h1
 	.container-content h1
 	{
 		font-size: 25px;
+	}
+	.imgmenuoptiontxt
+	{
+		font-size: 10px;
+	} 
+	.imgmenuoptiontxt 
+	{
+		position: relative;
+		top: 12vw;
+		left: 9vw;
 	}
 
 
@@ -216,6 +289,7 @@ h1
 	{
 		font-size: 12px;
 	} 
+
 
 
 }
